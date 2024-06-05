@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Sum Challenge</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .container {
+            margin-bottom: 20px;
+        }
+
+        select, button {
+            width: 200px;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        #timer {
+            font-size: 18px;
+            color: red;
+        }
+
+        #message {
+            font-size: 18px;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Random Sum Challenge</h2>
+        <div id="challenge"></div>
+        <select id="answerSelect">
+            <!-- Options will be populated by JavaScript -->
+        </select>
+        <button id="submitBtn" disabled>Submit</button>
+        <p id="timer">5</p>
+        <p id="message"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
