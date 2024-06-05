@@ -57,6 +57,7 @@ document.addEventListener('DOMContentLoaded', function() {
             messageElement.textContent = "You guessed it! Well done!";
         } else {
             messageElement.textContent = "Incorrect answer!";
+            messageElement.style.color = 'red';
         }
     });
 });
